@@ -50,10 +50,10 @@ const obj: StringRegexDictionary = {
 Object.keys(obj).forEach(function (value) {});
 
 // 인터페이스 확장
-interface Person {
-  name: string;
-  age: number;
-}
+// interface Person {
+//   name: string;
+//   age: number;
+// }
 
 interface Developer extends Person {
   language: string;
