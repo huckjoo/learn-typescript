@@ -33,8 +33,8 @@
 
   let empty1: Empty<string>;
   let empty2: Empty<number>;
-  empty1 = empty2;
-  empty2 = empty1;
+  //   empty1 = empty2;
+  //   empty2 = empty1;
 
   interface NotEmpty<T> {
     data: T;
@@ -43,5 +43,5 @@
   let notEmpty1: NotEmpty<string>;
   let notEmpty2: NotEmpty<number>;
 
-  notEmpty1 = notEmpty2; // 구조적 타입이 달라져서 Type error
+  //   notEmpty1 = notEmpty2; // 구조적 타입이 달라져서 Type error
 }
